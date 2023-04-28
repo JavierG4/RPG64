@@ -12,8 +12,8 @@ COMENTARIOS: Clase principal del personaje
 
 template <class T> class personaje_t {
  public:
- 
-
+    void 
+    personaje_T(); // Constructor del personaje
 
 
 
@@ -25,8 +25,10 @@ template <class T> class personaje_t {
 
 
  private:
-
-
+    T salud;
+    T fuerza;
+    T mochila;
+    T conocimientos;
 
 
 
