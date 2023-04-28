@@ -5,6 +5,7 @@ AUTORES :Javier González Brito .
         :Airan...
         :Jose...
         :Franco
+        :Alejandro Barreto
 ULT FECHA: 17/04/2023
 Clase Personaje
 COMENTARIOS: Clase principal del personaje

@@ -5,6 +5,7 @@ AUTORES :Javier González Brito .
         :Airan...
         :Jose...
         :Franco
+        :Alejandro Barreto
 ULT FECHA: 17/04/2023
 Clase salud
 COMENTARIOS: Clase salud
@@ -22,7 +23,7 @@ class salud : public personaje_t {
     int get_piernas(void) const; // Te indica la salud que tienen tus piernas
     int get_torso(void) const;  // Te indica la salud que tiene tu torso
     void damage_body(); // Función que te hace daño
-    
+
 
 
  private: 
