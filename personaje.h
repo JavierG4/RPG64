@@ -2,8 +2,9 @@
 AUTORES :Javier González Brito .
         :Javier ...
         :Izan ...
-        :Arian...
+        :Airan...
         :Jose...
+        :Franco
 ULT FECHA: 17/04/2023
 Clase Personaje
 COMENTARIOS: Clase principal del personaje
@@ -13,6 +14,8 @@ COMENTARIOS: Clase principal del personaje
 
 #include <iostream>
 #include <cctype>
+#include "salud.h"
+
 
 template <class T> class personaje_t {
  public:
@@ -29,10 +32,10 @@ template <class T> class personaje_t {
 
 
  private:
-    T salud;
-    T fuerza;
-    T mochila;
-    T conocimientos;
+    salud vida_;
+    T fuerza_;
+    T mochila_;
+    T conocimientos_;
 
 
 
