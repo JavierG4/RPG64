@@ -33,8 +33,8 @@ template <class T> class personaje_t {
 
 
  private:
-    salud vida_;
-    T fuerza_;
+    T vida_;
+    T Atributos_; // Atributos fisicos como altura, edad, peso, etc
     T mochila_;
     T conocimientos_;
 
