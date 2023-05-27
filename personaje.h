@@ -18,10 +18,10 @@ COMENTARIOS: Clase principal del personaje
 #include "salud.h"
 
 
-template <class T> class personaje_t {
+template <class T> class Personaje_t {
  public:
     void 
-    personaje_T(); // Constructor del personaje
+    Personaje_T(); // Constructor del personaje
 
 
 
@@ -33,7 +33,7 @@ template <class T> class personaje_t {
 
 
  private:
-    T vida_;
+    Salud vida_;
     T Atributos_; // Atributos fisicos como altura, edad, peso, etc
     T mochila_;
     T conocimientos_;

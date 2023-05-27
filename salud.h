@@ -15,7 +15,7 @@ Atributos clase salud:
     Piernas
     Brazos
 */
-class salud : public personaje_t {
+class Salud {
  public:
     void curarse(); // Funcion que te indica si tienes curaciones o no para curarte
     int get_head(void) const; // Te indica la salud que tiene tu cabeza
