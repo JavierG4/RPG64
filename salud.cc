@@ -15,11 +15,31 @@ Atributos clase salud:
     Piernas
     Brazos
 */
+#include <iostream>
+#include <cctype>
+#include "salud.h"
 
-template<class T> int pair_t<T>::get_inx() const {
-  return inx_;
+int Salud::get_torso() const {
+  return torso_;
 }
-
-template<class T> T pair_t<T>::get_val() const {
-  return val_;
+int Salud::get_brazos() const {
+  return brazos_;
+}
+int Salud::get_piernas() const {
+  return piernas_;
+}
+int Salud::get_cabeza() const {
+  return cabeza_;
+}
+int Salud::get_interior() const {
+  return interior_;
+}
+void Salud::curarse(objeto x ) {
+  if( x == botiquin) { // botiquín por ejmeplo
+    torso_ = 100;
+    brazos_ = 100;
+    piernas_ = 100;
+    interior_ = 100;
+    cabeza_ = 100;
+  }
 }

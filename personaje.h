@@ -16,6 +16,9 @@ COMENTARIOS: Clase principal del personaje
 #include <iostream>
 #include <cctype>
 #include "salud.h"
+#include "mochila.h"
+#include "atributos.h"
+#include "conocimientos.h"
 
 
 template <class T> class Personaje_t {
@@ -36,7 +39,7 @@ template <class T> class Personaje_t {
     Salud vida_;
     T Atributos_; // Atributos fisicos como altura, edad, peso, etc
     T mochila_;
-    T conocimientos_;
+    T conocimientos_; // Fuerza, inteligencia...
 
 
 

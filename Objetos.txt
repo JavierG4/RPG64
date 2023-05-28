@@ -1,0 +1,5 @@
+Tengo pensado que los objetos igual hay que meter los datos por un .txt < y que con un contructor de objetos igual pongamos algo tal que asi 
+
+Cuaderno(Nombre)
+//Stats
+50 (Inteligencia) 0 (fuerza) ...
