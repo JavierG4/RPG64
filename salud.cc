@@ -42,4 +42,9 @@ void Salud::curarse(objeto x ) {
     interior_ = 100;
     cabeza_ = 100;
   }
+  if(x == pastillas) {cabeza_ = 100;}
+  if(x == torniquete) {piernas_ = 100;}
+  if(x == venda) {brazos_ = 100;}
+  if(x == kit) {torso_ == 100;}
 }
+
