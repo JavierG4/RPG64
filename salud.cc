@@ -34,7 +34,7 @@ int Salud::get_cabeza() const {
 int Salud::get_interior() const {
   return interior_;
 }
-void Salud::curarse(objeto x ) {
+void Salud::curarse(objeto x ) { // aquí en vez de tantos if iría un switch
   if( x == botiquin) { // botiquín por ejmeplo
     torso_ = 100;
     brazos_ = 100;
