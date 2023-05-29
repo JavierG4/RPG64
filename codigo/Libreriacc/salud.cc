@@ -51,8 +51,7 @@ void Salud::set_brazos(int brazos) {
 void Salud::set_interior(int interior) {
   interior_ = interior;
 }
-
-
+// void Salud::damage_body() {}
 
 /*void Salud::curarse(objeto x ) { // aquí en vez de tantos if iría un switch
   if( x == botiquin) { // botiquín por ejmeplo

@@ -14,6 +14,7 @@ Atributos clase salud:
     Torso
     Piernas
     Brazos
+    Interior
 */
 #ifndef SALUD_H_
 #define SALUD_H_
@@ -32,7 +33,7 @@ class Salud {
     void set_brazos(int);
     void set_piernas(int);
 //Metodos de la clase
-    void damage_body(); // Función que te hace daño
+    void damage_body(); // Función que te hace daño y dos parametros(un int y parte del cuerpo)
     void curarse(objeto); // Funcion que te indica si tienes curaciones o no para curarte.
                     // Dentro de la funcion tambien podemos meter por parametro con lo qu ete curas
                     // Es decir venda, botiquin, pastillas... y que cada una te de una mejora
