@@ -21,19 +21,20 @@
 using namespace std;
 
 void printWithDelay(const std::string& s, int delay = 20000) {
-  std::cout << "\033[1;31m";
+  
   for (char c : s) {
     std::cout << c;
     std::flush(std::cout); // asegúrate de que se imprima inmediatamente
     usleep(delay); // espera el tiempo de retraso especificado
   }
-  std::cout << "\033[0m";
 }
 
 int main() {
-  system("clear"); 
+  system("clear");
+  std::cout << "\033[1;31m"; 
   std::string p = "Habia una vez una pobre niña que quería tu preciado helado. \nIntentó arrancártelo de la mano, pero rapidamente tu pudiste esquivarla con gran perspicacia.\nFinalmente te caiste por el balanceo que te proporcionó aquella maniobra evasiva\n";
   printWithDelay(p);
+  std::cout << "\033[0m";
   p = "Ahora tienes la decisión, que querrá hacer el protagonista?\n(m) mostrar el mapa\n(s) ir al sur\n";
   printWithDelay(p);
   char eleccion;
