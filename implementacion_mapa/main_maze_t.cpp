@@ -29,7 +29,7 @@ void printWithDelay(const std::string& s, int delay = 50000) {
 }
 
 int main() {
-
+  system("clear"); 
   std::string p = "Habia una vez una pobre niña que quería tu preciado helado. \nIntentó arrancártelo de la mano, pero rapidamente tu pudiste esquivarla con gran perspicacia.\nFinalmente te caiste por el balanceo que te proporcionó aquella maniobra evasiva\n";
   printWithDelay(p);
 
