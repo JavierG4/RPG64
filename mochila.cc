@@ -12,7 +12,10 @@ COMENTARIOS: Aquí estarán los objetos que obtenga el personaje
 */
 #ifndef MOCHILA_H_
 #define MOCHILA_H_
+class Mochila {
 
+        
+}
 
 
 
