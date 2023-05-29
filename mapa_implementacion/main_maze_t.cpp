@@ -43,7 +43,7 @@ int main() {
     maze_t M;
     // ifstream is used for reading files
     // We'll read from a file called data_maze_1.txt
-    std::ifstream inf{ "mapa.txt" };
+    std::ifstream inf{ "plant1.txt" };
 
     // If we couldn't open the input file stream for reading
     if (!inf) {   
