@@ -20,6 +20,14 @@
 
 using namespace std;
 
+void printWithDelay(const std::string& s, int delay = 50000) {
+  for (char c : s) {
+    std::cout << c;
+    std::flush(std::cout); // asegúrate de que se imprima inmediatamente
+    usleep(delay); // espera el tiempo de retraso especificado
+  }
+}
+
 int main() {
 
   std::string p = "Habia una vez una pobre niña que quería tu preciado helado. \nIntentó arrancártelo de la mano, pero rapidamente tu pudiste esquivarla con gran perspicacia.\nFinalmente te caiste por el balanceo que te proporcionó aquella maniobra evasiva\n";
@@ -28,7 +36,7 @@ int main() {
   maze_t M;
   // ifstream is used for reading files
   // We'll read from a file called data_maze_1.txt
-  std::ifstream inf{ "data_maze_1.txt" };
+  std::ifstream inf{ "mapa.txt" };
 
   // If we couldn't open the input file stream for reading
   if (!inf) {   
@@ -45,10 +53,3 @@ int main() {
   return 0;
 }
 
-void printWithDelay(const std::string& s, int delay = 50000) {
-  for (char c : s) {
-    std::cout << c;
-    std::flush(std::cout); // asegúrate de que se imprima inmediatamente
-    usleep(delay); // espera el tiempo de retraso especificado
-  }
-}
