@@ -28,7 +28,13 @@ class Salud {
     int get_torso(void) const;  // Te indica la salud que tiene tu torso
     int get_interior() const; // Te indica la salud que tiene tu interior
     void damage_body(); // Función que te hace daño
-
+// Setters
+    void set_cabeza(int);
+    void set_interior(int);
+    void set_torso(int);
+    void set_cabeza(int);
+    void set_cabeza(int);
+//metodos
 
 
  private: 
