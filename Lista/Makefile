@@ -23,7 +23,7 @@ Programa: Programa.o
 # correspond to actual files.
 .PHONY: all clean
 
-# The following rule is effectively built into make and
+# The following rule is effectively built into make and a
 # therefore need not be explicitly specified: 
 Programa.o: main.cc peronaje.cc salud.cc mochila.cc objetos.cc
 #

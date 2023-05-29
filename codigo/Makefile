@@ -46,3 +46,9 @@ push :
 
 pull:
 	git pull
+
+actu:
+	git pull
+	git add .
+	git commit -m actualización
+	git push
