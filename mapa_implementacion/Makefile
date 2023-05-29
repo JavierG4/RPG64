@@ -54,4 +54,4 @@ actu:
 	git push
 
 build:
-	
+	g++ main_maze_t.cpp maze_t.cpp -o prueba_mapa

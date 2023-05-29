@@ -2,5 +2,4 @@ tener un mapa del territorio en general para poder orientarse con facilidad, y q
 
 también se puede hacer que una zona del mapa no se pueda acceder debido a un bloqueo y que en la aventura en sierto momento de la trama se pueda quitar la barrrera modificando la matriz del mapa justo después de hablar con una persona.
 
-
 El funcionamiento del juego(bucle del juego)  al empezar se te pone un menú preguntandote que acciòn quieres realizar, al poner la acción se llamará a una función la cual realizará la acción al final se mirará el que tiene el mapa en tu posición y se llamará a la función "menu" la cual vuelve a decirte lo que puedes hacer y pedirte que acción quieres hacer.
