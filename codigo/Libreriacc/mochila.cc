@@ -27,5 +27,7 @@ template<class T> int Mochila<T>::get_cantidad(void) const {
   return cantidad_;
 }
 template<class T> void Mochila<T>::añadir_objeto(objeto) {
-
+  dll_node_t<T>* aux = NULL;
+  aux->set_data(obejeto);
+  lista_.push_front(aux);
 }
