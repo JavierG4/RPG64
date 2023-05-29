@@ -10,3 +10,24 @@ ULT FECHA: 17/04/2023
 Clase mochila
 COMENTARIOS: Aquí estarán los objetos que obtenga el personaje
 */
+#ifndef MOCHILA_H_
+#define MOCHILA_H_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif  // MOCHILA_H_
