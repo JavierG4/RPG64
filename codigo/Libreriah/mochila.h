@@ -26,12 +26,11 @@ template <class T> class Mochila {
  public:
     int get_capacidad(void) const; // Capacidad que tiene
     int get_cantidad(void) const; // Obejtos que tiene
-    
+    void añadir_objeto(objeto);
  private:
     int capacidad_;
     int cantidad_; 
     dll_t<T> lista_;                
-
 }
 
 
