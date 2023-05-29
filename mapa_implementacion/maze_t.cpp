@@ -89,10 +89,10 @@ maze_t::write(ostream& os) const
     for (int j = 1; j <= matrix_.get_n(); j++)
       switch (matrix_(i, j))
       { 
-        case START_ID: os << START_CHR; os << START_CHR; break;
+        case START_ID: os << START_CHR; os << PASS_CHR; break;
         //case END_ID:   os << END_CHR;   break;
         case WALL_ID:  os << WALL_CHR; os << WALL_CHR; break;
-        case PASS_ID:  os << PASS_CHR; os << PASS_CHR;  break;
+        case PASS_ID:  os << PASS_CHR; os << PASS_CHR; break;
         //case PATH_ID:  os << PATH_CHR;  break;
       }
     os << endl;
