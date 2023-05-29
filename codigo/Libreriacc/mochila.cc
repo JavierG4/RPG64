@@ -26,3 +26,6 @@ template<class T> int Mochila<T>::get_capacidad(void) const {
 template<class T> int Mochila<T>::get_cantidad(void) const {
   return cantidad_;
 }
+template<class T> void Mochila<T>::añadir_objeto(objeto) {
+
+}
