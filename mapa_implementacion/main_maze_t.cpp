@@ -20,6 +20,7 @@
 
 using namespace std;
 
+// imprmime el string dado con un delay 
 void printWithDelay(const std::string& s, int delay = 20000) {
   
   for (char c : s) {
@@ -41,8 +42,7 @@ int main() {
   std::cin >> eleccion;
   if (eleccion == 'm') {
     maze_t M;
-    // ifstream is used for reading files
-    // We'll read from a file called data_maze_1.txt
+    // leemos el mapa data_maze_1.txt
     std::ifstream inf{ "mapa.txt" };
 
     // If we couldn't open the input file stream for reading
