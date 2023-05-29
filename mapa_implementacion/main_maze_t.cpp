@@ -45,10 +45,10 @@ int main() {
     // leemos el mapa data_maze_1.txt
     std::ifstream inf{ "mapa.txt" };
 
-    // If we couldn't open the input file stream for reading
+    // If no pudimos abrir el fichero:
     if (!inf) {   
-      // Print an error and exit
-      std::cout << "Uh oh, Sample.txt could not be opened for reading!\n";
+      // imprime un error y retorna
+      std::cout << "Uh oh, mapa.txt no se pudo abrir!\n";
       return 1;
     }
     // lee el mapa del inf
