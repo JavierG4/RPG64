@@ -19,6 +19,7 @@ COMENTARIOS: Aquí estarán los objetos que obtenga el personaje
 #include "dll_t.h"
 #include <cassert>
 #include "mochila.h"
+#include "objetos.h"
 
 template<class T> int Mochila<T>::get_capacidad(void) const {
   return capacidad_;
