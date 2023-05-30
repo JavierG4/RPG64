@@ -18,6 +18,8 @@ Atributos clase salud:
 */
 #ifndef SALUD_H_
 #define SALUD_H_
+#include "libreria.h"
+//Clase salud
 class Salud {
  public:
     int get_cabeza(void) const; // Te indica la salud que tiene tu cabeza
@@ -34,7 +36,7 @@ class Salud {
     void set_piernas(int);
 //Metodos de la clase
     void damage_body(); // Función que te hace daño y dos parametros(un int y parte del cuerpo)
-    void curarse(objeto); // Funcion que te indica si tienes curaciones o no para curarte.
+    void curarse(Consumible); // Funcion que te indica si tienes curaciones o no para curarte.
                     // Dentro de la funcion tambien podemos meter por parametro con lo qu ete curas
                     // Es decir venda, botiquin, pastillas... y que cada una te de una mejora
 

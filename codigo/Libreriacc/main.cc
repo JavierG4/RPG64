@@ -10,7 +10,7 @@ ULT FECHA: 17/04/2023
 Programa Principal
 COMENTARIOS: 
 */
-# include <iostream>
+#include "libreria.h"
 
 int main() {
 }

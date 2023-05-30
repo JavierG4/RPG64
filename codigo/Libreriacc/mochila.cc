@@ -10,16 +10,7 @@ ULT FECHA: 17/04/2023
 Clase mochila
 COMENTARIOS: Aquí estarán los objetos que obtenga el personaje
 */
-#include <iostream>
-#include "salud.h"
-#include "atributos.h"
-#include "conocimientos.h"
-#include "personaje.h"
-#include "dll_node_t.h"
-#include "dll_t.h"
-#include <cassert>
-#include "mochila.h"
-#include "objetos.h"
+#include "libreria.h"
 
 template<class T> int Mochila<T>::get_capacidad(void) const {
   return capacidad_;
@@ -27,8 +18,8 @@ template<class T> int Mochila<T>::get_capacidad(void) const {
 template<class T> int Mochila<T>::get_cantidad(void) const {
   return cantidad_;
 }
-template<class T> void Mochila<T>::añadir_objeto(T objeto) {
+template<class T> void Mochila<T>::añadir_objeto(Objeto x) {
   dll_node_t<T>* aux = NULL;
-  aux->set_data(objeto);
+  aux->set_data(x);
   lista_.push_front(aux);
 }

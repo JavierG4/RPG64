@@ -15,10 +15,7 @@ Atributos clase salud:
     Piernas
     Brazos
 */
-#include <iostream>
-#include <cctype>
-#include "salud.h"
-#include "personaje.h"
+#include "libreria.h"
 // Getters
 int Salud::get_torso() const {
   return torso_;

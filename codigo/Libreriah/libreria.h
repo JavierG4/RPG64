@@ -1,0 +1,11 @@
+#include <iostream>
+#include "salud.h"
+#include "atributos.h"
+#include "conocimientos.h"
+#include "personaje.h"
+#include "dll_node_t.h"
+#include "dll_t.h"
+#include <cassert>
+#include "mochila.h"
+#include "objetos.h"
+#include <string>

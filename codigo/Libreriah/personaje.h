@@ -12,14 +12,7 @@ COMENTARIOS: Clase principal del personaje
 */
 #ifndef PERSONAJE_H_
 #define PERSONAJE_H_
-
-#include <iostream>
-#include <cctype>
-#include "salud.h"
-#include "mochila.h"
-#include "atributos.h"
-#include "conocimientos.h"
-
+#include "libreria.h"
 
 template <class T> class Personaje_t {
  public:
