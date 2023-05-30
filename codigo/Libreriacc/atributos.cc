@@ -11,6 +11,14 @@ Clase atributos
 COMENTARIOS: Aquí estarán los atributos de cada personaje
 */
 #include "libreria.h"
+
+    Atributos::Atributos(int edad, int altura, int peso, bool genero) :
+    edad_(edad),
+    altura_(altura),
+    peso_(peso),
+    genero_(genero)
+    {}
+
     int Atributos::get_edad(void) const {
         return edad_;
     }
