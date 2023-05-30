@@ -28,7 +28,8 @@ template <class T> class Mochila {
  private:
     int capacidad_; // capacidad maxima
     int cantidad_; // cantidad de objetos que lleva
-    dll_t<T> lista_;                
+    dll_t<T> objetos_;
+    dll_t<T> consumibles_;                
 }
 
 

@@ -7,11 +7,12 @@ AUTORES :Javier González Brito .
         :Franco
         :Alejandro Barreto
 ULT FECHA: 17/04/2023
-Programa Principal
-COMENTARIOS: 
+Clase consumible
+COMENTARIOS: Aquí estarán la clase cosumible
+             Así como vendas botiquies, es decir, objetos temporales
 */
 #include "libreria.h"
 
-int main() {
-
+std::string Consumible::get_nombre(void) const {
+  return nombre_;
 }
