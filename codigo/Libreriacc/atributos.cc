@@ -23,3 +23,15 @@ COMENTARIOS: Aquí estarán los atributos de cada personaje
     bool Atributos::get_genero(void) const {
         return genero_;
     }
+    void set_edad(int edad){
+        edad_ = edad;
+    }
+    void set_altura(int altura){
+        altura_ = altura;
+    }
+    void set_peso(int peso) {
+        peso_ = peso;
+    }
+    void genero(bool genero){
+        genero_ = genero;
+    }
