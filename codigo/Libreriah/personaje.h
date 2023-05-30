@@ -36,13 +36,5 @@ class Personaje{
 
 
 
-
-
-
-
-
-
-
-
 }
 #endif  // PERSONAJE_H_

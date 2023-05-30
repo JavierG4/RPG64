@@ -50,7 +50,7 @@ void Salud::set_interior(int interior) {
 }
 // void Salud::damage_body() {}
 
-/*void Salud::curarse(objeto x ) { // aquí en vez de tantos if iría un switch
+void Salud::curarse(objeto x ) { // aquí en vez de tantos if iría un switch
   if( x == botiquin) { // botiquín por ejmeplo
     torso_ = 100;
     brazos_ = 100;
@@ -63,5 +63,5 @@ void Salud::set_interior(int interior) {
   if(x == venda) {brazos_ = 100;}
   if(x == kit) {torso_ == 100;}
 }
-*/
+
 
