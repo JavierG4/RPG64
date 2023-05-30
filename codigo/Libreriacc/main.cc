@@ -13,5 +13,5 @@ COMENTARIOS:
 #include "libreria.h"
 
 int main() {
-
+    system("clear");
 }
