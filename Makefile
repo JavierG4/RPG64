@@ -46,10 +46,10 @@ push :
 
 pull:
 	git pull
-	clear
+	
 actu:
 	git pull
 	git add .
 	git commit -m actualización
 	git push
-	clear
+	
