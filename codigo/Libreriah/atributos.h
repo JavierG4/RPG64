@@ -31,5 +31,5 @@ class Atributos {
    int edad_;
    int altura_;
    int peso_;
-   bool genero_; // True hombre , False mujer
+   bool genero_; // True hombre , False mujer  (la mujer siempre por debajo del hombre)
 }
