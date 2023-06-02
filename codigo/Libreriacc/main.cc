@@ -13,5 +13,6 @@ COMENTARIOS:
 #include "libreria.h"
 
 int main() {
-    system("clear");
+    //system("clear");
+    std::cout << "_____________________________________________________________" << std::endl;
 }
