@@ -14,8 +14,6 @@
 #include "maze_t.hpp"
 #include <cstdlib>
 #include <fstream>
-#include <iostream>
-#include <string>
 #include <unistd.h>
 
 void printWithDelay(const std::string& s, int delay = 50000) {
