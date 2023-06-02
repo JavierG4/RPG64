@@ -15,7 +15,8 @@ COMENTARIOS:
 #include "libreria.h"
 #include <string.h>
 class Objeto {
- public:       
+ public:      
+   Objeto(int,int,int,std::string);
 // getters
    int get_vida_extra(void) const; // Te indica la vida que te da el objeto
    int get_resistencia(void) const; // Te indica la resistencia que te da el objeto
