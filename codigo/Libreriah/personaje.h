@@ -18,7 +18,9 @@ class Personaje{
  public:
     void 
     Personaje(); // Constructor del personaje
-
+    int get_salud(int parte_del_cuerpo = 0) const; 
+    void añadir_objeto(Objeto obj);
+    void dañado(int parte_del_cuerpo, int cantidad);
 
 
 
