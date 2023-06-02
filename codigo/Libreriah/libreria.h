@@ -1,4 +1,4 @@
-#ifndef MLIBRERIA_H_
+#ifndef LIBRERIA_H_
 #define LIBRERIA_H_
 #include <iostream>
 #include "salud.h"
