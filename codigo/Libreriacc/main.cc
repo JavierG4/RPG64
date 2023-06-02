@@ -10,9 +10,10 @@ ULT FECHA: 17/04/2023
 Programa Principal
 COMENTARIOS: 
 */
-#include "libreria.h"
+//#include "libreria.h"
+#include <iostream>
 
 int main() {
     //system("clear");
-    std::cout << "_____________________________________________________________" << std::endl;
+    std::cout << "_____________________________________________________________________________________________" << std::endl;
 }
