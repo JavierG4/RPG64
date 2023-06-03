@@ -22,6 +22,8 @@ Atributos clase salud:
 //Clase salud
 class Salud {
  public:
+    Salud(int,int,int,int,int,int); //constructor
+ //getters
     int get_cabeza(void) const; // Te indica la salud que tiene tu cabeza
     int get_brazos(void) const; // Te indica la salud que tienen tus brazod
     int get_piernas(void) const; // Te indica la salud que tienen tus piernas
