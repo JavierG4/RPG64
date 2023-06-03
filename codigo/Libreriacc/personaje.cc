@@ -11,7 +11,7 @@ Clase Personaje
 COMENTARIOS: Clase principal del personaje
 */
 #include "libreria.h"
-Personaje::Personaje(Atributos atributos, Estadisctica estadistica) {
+Personaje::Personaje(Atributos atributos, Estadistica estadistica) {
   atributos_ = atributos;
   estadisticas_ = estadistica;
   Salud salud(100,100,100,100,100,100);
