@@ -10,11 +10,11 @@ ULT FECHA: 17/04/2023
 Programa Principal
 COMENTARIOS: 
 */
-//#include "libreria.h"
+#include "../Libreriah/libreria.h"
 #include <iostream>
 
 int main() {
-    //system("clear");
+    system("clear");
     
     std::cout << "_____________________________________________________________________________________________" << std::endl;
     std::cout << "|     ___  ___  ___    " << "      ___  ___  ___    " << "      ___  ___  ___          ___  ___  ___     |" << std::endl;
@@ -24,4 +24,7 @@ int main() {
     std::cout << "|    |  |O|   |O|  |        |  |0|   |0|  |        |  |@|   |@|  |        |   | @@@ |   |    |" << std::endl;
     std::cout << "|    |  ¯¯¯|^|¯¯¯  |        |  ¯¯¯|^|¯¯¯  |        |  ¯¯¯|^|¯¯¯  |        |   ¯¯|^|¯¯   |    |" << std::endl;
     std::cout << "|    |             |        |             |        |             |        |             |    |" << std::endl;
+
+
+
 }
