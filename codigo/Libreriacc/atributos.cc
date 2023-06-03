@@ -10,7 +10,7 @@ ULT FECHA: 17/04/2023
 Clase atributos
 COMENTARIOS: Aquí estarán los atributos de cada personaje
 */
-#include "libreria.h"
+#include "../Libreriah/libreria.h"
 
     Atributos::Atributos(int edad, int altura, int peso, bool genero) :
     edad_(edad),

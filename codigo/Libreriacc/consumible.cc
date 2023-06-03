@@ -11,7 +11,7 @@ Clase consumible
 COMENTARIOS: Aquí estarán la clase cosumible
              Así como vendas botiquies, es decir, objetos temporales
 */
-#include "libreria.h"
+#include "../Libreriah/libreria.h"
 
 std::string Consumible::get_nombre(void) const {
   return nombre_;

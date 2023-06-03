@@ -10,7 +10,7 @@ ULT FECHA: 17/04/2023
 Clase Personaje
 COMENTARIOS: Clase principal del personaje
 */
-#include "libreria.h"
+#include "../Libreriah/libreria.h"
 Personaje::Personaje(Atributos atributos, Estadistica estadistica) {
   atributos_ = atributos;
   estadisticas_ = estadistica;

@@ -10,7 +10,7 @@ ULT FECHA: 17/04/2023
 Aquí estará la lista de objetos disponibles en el juego
 COMENTARIOS: 
 */
-#include "libreria.h"
+#include "../Libreriah/libreria.h"
 
 // Getters
 int Objeto::get_vida_extra(void) const{
