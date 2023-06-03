@@ -31,8 +31,8 @@ template <class T> class Personaje{
 
  private:
     Salud salud_;
-    Atributos Atributos_; // Atributos fisicos como altura, edad, peso, etc
-    Mochila mochila_;
+    Atributos atributos_; // Atributos fisicos como altura, edad, peso, etc
+    Mochila<T> mochila_;
     Estadistica estadisticas_; // Fuerza, inteligencia...
 
 
