@@ -16,7 +16,7 @@ COMENTARIOS: Aquí estarán los objetos que obtenga el personaje
 
 template <class T> class Mochila {
  public:
-    mochila(int capacidad);
+    Mochila(int); // int capacidad
 //getters
     int get_capacidad(void) const; // Capacidad que tiene
     int get_cantidad(void) const; // Obejtos que tiene
