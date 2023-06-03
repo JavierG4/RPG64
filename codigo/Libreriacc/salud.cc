@@ -16,6 +16,13 @@ Atributos clase salud:
     Brazos
 */
 #include "libreria.h"
+Salud::Salud(int torso, int cabeza, int interior, int brazos, int piernas){
+  torso_ =  torso;
+  cabeza_ = cabeza;
+  interior_ = interior;
+  piernas_ = piernas;
+  brazos_ = brazos_;
+}
 // Getters
 int Salud::get_torso() const {
   return torso_;
