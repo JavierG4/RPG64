@@ -54,4 +54,4 @@ actu:
 	git push
 	clear
 program:
-	g++ atributos.cc consumible.cc estadistica.cc main.cc objetos.cc salud.cc consumible.cc lore.cc mochila.cc personaje.cc
+	g++ atributos.cc consumible.cc estadistica.cc main.cc objetos.cc salud.cc consumible.cc lore.cc mochila.cc personaje.cc maze_t.cpp
