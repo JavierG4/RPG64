@@ -35,6 +35,7 @@ class Objeto {
    int resistencia_;
    int vida_extra_;
    std::string nombre_;
+   std::string descripcion_;
 };
 
 
