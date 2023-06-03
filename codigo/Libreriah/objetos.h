@@ -14,7 +14,7 @@ COMENTARIOS:
 #define OBJETO_H_
 #include "libreria.h"
 #include <string.h>
-template <class T> class Objeto {
+class Objeto {
  public:      
    Objeto(int,int,int,std::string);
 // getters
