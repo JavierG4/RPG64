@@ -28,3 +28,9 @@ int Estadistica::get_resistencia(void)const {
 void Estadistica::set_fuerza(int fuerza){
   fuerza_ = fuerza;
 }
+void Estadistica::set_inteligencia(int inte){
+  inteligencia_ = inte;
+}
+void Estadistica::set_resistencia(int resis){
+  resistencia_ = resis;
+}
