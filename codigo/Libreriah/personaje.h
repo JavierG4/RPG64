@@ -14,11 +14,11 @@ COMENTARIOS: Clase principal del personaje
 #define PERSONAJE_H_
 #include "libreria.h"
 #include "salud.h"
-class Personaje{
+template <class T> class Personaje{
  public:
     Personaje(Atributos, Estadistica); // Constructor del personaje
     int get_salud(int parte_del_cuerpo = 0) const; 
-    void añadir_objeto(Objeto<T>);
+    void añadir_objeto(Objeto);
     void dañado(int parte_del_cuerpo, int cantidad);
 
 
@@ -32,7 +32,7 @@ class Personaje{
  private:
     Salud salud_;
     Atributos Atributos_; // Atributos fisicos como altura, edad, peso, etc
-    Mochila mochila_;
+    Mochila<T> mochila_;
     Estadistica estadisticas_; // Fuerza, inteligencia...
 
 
