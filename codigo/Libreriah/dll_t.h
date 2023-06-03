@@ -48,7 +48,7 @@ template <class T> class dll_t {
   dll_node_t<T>* head_;
   dll_node_t<T>* tail_;
   int            sz_;
-};
+}; 
 
 
 // destructor
