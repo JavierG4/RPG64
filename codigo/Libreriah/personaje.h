@@ -31,7 +31,7 @@ class Personaje{
 
  private:
     Salud salud_;
-    Atributos atributos_; // Atributos fisicos como altura, edad, peso, etc
+    Atributos Atributos_; // Atributos fisicos como altura, edad, peso, etc
     Mochila mochila_;
     Estadistica estadisticas_; // Fuerza, inteligencia...
 

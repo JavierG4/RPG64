@@ -25,7 +25,7 @@ template <class T> class Mochila {
     void set_cantidad(int); // Set de cantidad
 // Metodos de la clase mochila
     void añadir_objeto(Objeto);
-    Objeto sacar_objeto(dll_t<T>* posObj);
+    Objeto sacar_objeto(); // posicion del objeto
    
  private:
     int capacidad_; // capacidad maxima
