@@ -19,7 +19,7 @@ class Atributos {
     int get_edad(void) const; //  Edad
     int get_altura(void) const; // Altura
     int get_peso(void) const; // Peso
-    bool get_genero(void) const // Genero 
+    bool get_genero(void) const; // Genero 
 //Setters
     void set_edad(int); //set de capacidad
     void set_altura(int); // Set de cantidad
@@ -32,4 +32,4 @@ class Atributos {
    int altura_;
    int peso_;
    bool genero_; // True hombre , False mujer  (la mujer siempre por debajo del hombre)
-}
+};

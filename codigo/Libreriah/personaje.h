@@ -16,10 +16,9 @@ COMENTARIOS: Clase principal del personaje
 #include "salud.h"
 class Personaje{
  public:
-    void 
-    Personaje(Atributos, Estadisctica); // Constructor del personaje
+    Personaje(Atributos, Estadistica); // Constructor del personaje
     int get_salud(int parte_del_cuerpo = 0) const; 
-    void añadir_objeto(Objeto obj);
+    void añadir_objeto(Objeto);
     void dañado(int parte_del_cuerpo, int cantidad);
 
 
@@ -38,5 +37,5 @@ class Personaje{
 
 
 
-}
+};
 #endif  // PERSONAJE_H_

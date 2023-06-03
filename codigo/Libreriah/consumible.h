@@ -21,6 +21,6 @@ class Consumible{
 
  private:
   std::string nombre_;
-}
+};
 
 #endif  // CONSUMIBLE_H_

@@ -1,6 +1,7 @@
 #ifndef LIBRERIA_H_
 #define LIBRERIA_H_
 #include <iostream>
+#include "consumible.h"
 #include "salud.h"
 #include "atributos.h"
 #include "estadistica.h"
@@ -15,6 +16,7 @@
 #include <cstdlib>
 #include <fstream>
 #include <unistd.h>
+
 
 void printWithDelay(const std::string& s, int delay = 50000) {
   

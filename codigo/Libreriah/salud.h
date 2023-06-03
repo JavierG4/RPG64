@@ -47,7 +47,7 @@ class Salud {
     int brazos_; // Vida de los brazos
     int interior_; // Vida de los organos
 
-}
+};
 
 
 #endif  // SALUD_H_
