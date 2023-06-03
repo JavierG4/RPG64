@@ -12,13 +12,13 @@ COMENTARIOS: Aquí estarán los objetos que obtenga el personaje
 */
 #include "../Libreriah/libreria.h"
 
-Mochila<T>::Mochila(int capacidad) {
-  capacidad_ = capacidad;
-  cantidad_ = 0;
-  dll_t<T> aux;
-  objetos_ = aux;
-  consumibles_ = aux;
-}
+//Mochila<T>::Mochila(int capacidad) {
+//  capacidad_ = capacidad;
+//  cantidad_ = 0;
+//  dll_t<T> aux;
+//  objetos_ = aux;
+//  consumibles_ = aux;
+//}
 
 template<class T> int Mochila<T>::get_capacidad(void) const {
   return capacidad_;
@@ -29,5 +29,5 @@ template<class T> int Mochila<T>::get_cantidad(void) const {
 template<class T> void Mochila<T>::añadir_objeto(Objeto x) {
   dll_node_t<T>* aux = NULL;
   aux->set_data(x);
-  lista_.push_front(aux);
+  objetos_.push_front(aux);
 }
