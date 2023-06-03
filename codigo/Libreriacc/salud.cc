@@ -65,10 +65,10 @@ void Salud::curarse(Consumible x ) { // aquí en vez de tantos if iría un switc
     interior_ = 100;
     cabeza_ = 100;
   }
-  if(x == pastillas) {cabeza_ = 100;}
-  if(x == torniquete) {piernas_ = 100;}
-  if(x == venda) {brazos_ = 100;}
-  if(x == kit) {torso_ == 100;}
+  if(x.get_nombre() == "pastillas") {cabeza_ = 100;}
+  if(x.get_nombre() == "torniquete") {piernas_ = 100;}
+  if(x.get_nombre() == "venda") {brazos_ = 100;}
+  if(x.get_nombre() == "kit") {torso_ == 100;}
 }
 
 
