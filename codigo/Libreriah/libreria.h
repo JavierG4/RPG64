@@ -18,13 +18,13 @@
 #include <unistd.h>
 
 
-void printWithDelay(const std::string& s, int delay = 50000) {
-  
-  for (char c : s) {
-    std::cout << c;
-    std::flush(std::cout); // asegúrate de que se imprima inmediatamente
-    usleep(delay); // espera el tiempo de retraso especificado
-  }
-}
+//void printWithDelay(const std::string& s, int delay = 50000) {
+//  
+//  for (char c : s) {
+//    std::cout << c;
+//    std::flush(std::cout); // asegúrate de que se imprima inmediatamente
+//    usleep(delay); // espera el tiempo de retraso especificado
+//  }
+//}
 
 #endif  // LIBRERIA_H_
