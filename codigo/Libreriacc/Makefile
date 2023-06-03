@@ -49,7 +49,7 @@ pull:
 
 actu:
 	git pull
-	git add .
+	git add ../../
 	git commit -m actualización
 	git push
 	clear
