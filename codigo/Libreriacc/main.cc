@@ -13,6 +13,8 @@ COMENTARIOS:
 #include "../Libreriah/libreria.h"
 #include <iostream>
 
+// .cc que estan quitados: el constructor de personaje y de mochila una función de salud y consumible entero
+
 int main() {
     system("clear");
 
