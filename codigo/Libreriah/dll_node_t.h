@@ -13,7 +13,7 @@
 #include <iostream>
 
 // Clase para nodos de listas doblemente enlazadas
-template <class T> class dll_node_t {
+template <class T> class dll_node_t { 
  public:
   // constructores
   dll_node_t() : prev_(NULL), data_(), next_(NULL) {}  // por defecto
