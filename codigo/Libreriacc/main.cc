@@ -34,6 +34,7 @@ int main() {
   std::cout << "|    |  |O|   |O|  |        |  |0|   |0|  |        |  |@|   |@|  |        |   | @@@ |   |    |" << std::endl;
   std::cout << "|    |  ¯¯¯|^|¯¯¯  |        |  ¯¯¯|^|¯¯¯  |        |  ¯¯¯|^|¯¯¯  |        |   ¯¯|^|¯¯   |    |" << std::endl;
   std::cout << "|    |             |        |             |        |             |        |             |    |" << std::endl;
+  std::cout 
 
   //bucle
 
