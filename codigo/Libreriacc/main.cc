@@ -12,7 +12,7 @@ COMENTARIOS:
 */
 #include "../Libreriah/libreria.h"
 
-void printWithDelay(const std::string& s, int delay = 10000) {
+void printWithDelay(const std::string& s, int delay = 50000) {
   for (char c : s) {
     std::cout << c;
     std::flush(std::cout); // asegúrate de que se imprima inmediatamente
