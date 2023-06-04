@@ -67,6 +67,7 @@ int main() {
   system("clear"); 
   std::cout << M << endl;
   system("read");
+  std::cout << "a" << endl;
   }
-  system("clear");
+  
 }
