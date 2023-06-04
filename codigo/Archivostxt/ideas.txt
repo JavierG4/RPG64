@@ -1,5 +1,5 @@
-tener un mapa del territorio en general para poder orientarse con facilidad, y que cada cuadrado fuera una "zona" en la que según la zona en la que estés se te den distintas posibles acciones que hacer.(también habrá unas zonas de guerra las cuales cuando entras directamente entras a un combate)
+Tener un mapa del territorio en general para poder orientarse con facilidad, y que cada cuadrado fuera una "zona" en la que según la zona en la que estés se te den distintas posibles acciones que hacer.(también habrá unas zonas de guerra las cuales cuando entras directamente entras a un combate)
 
-también se puede hacer que una zona del mapa no se pueda acceder debido a un bloqueo y que en la aventura en sierto momento de la trama se pueda quitar la barrrera modificando la matriz del mapa justo después de hablar con una persona.
+También se puede hacer que una zona del mapa no se pueda acceder debido a un bloqueo y que en la aventura en sierto momento de la trama se pueda quitar la barrrera modificando la matriz del mapa justo después de hablar con una persona.
 
 El funcionamiento del juego(bucle del juego)  al empezar se te pone un menú preguntandote que acciòn quieres realizar, al poner la acción se llamará a una función la cual realizará la acción al final se mirará el que tiene el mapa en tu posición y se llamará a la función "menu" la cual vuelve a decirte lo que puedes hacer y pedirte que acción quieres hacer.
