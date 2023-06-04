@@ -66,6 +66,7 @@ int main() {
   // se hace un clear y se imprime el mapa.
   system("clear"); 
   std::cout << M << endl;
+  system("read");
   }
   system("clear");
 }
