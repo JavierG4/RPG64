@@ -27,7 +27,7 @@ int main() {
   Atributos personaje4(100,250,150,true); // Mediana edad (100), Alto de cojones, 150 kilos, Tio
   //Estadistica
   std::cout << "_____________________________________________________________________________________________" << std::endl;
-  std::cout << "|     ___  ___  ___    " << "      ___  ___  ___    " << "      ___  ___  ___          ___  ___  ___     |" << std::endl;
+  std::cout << "|     ___  ___  ___          ___  ___  ___          ___  ___  ___          ___  ___  ___     |" << std::endl;
   //std::cout << "|    |             |        |             |        |             |        |             |    |" << std::endl;
   std::cout << "|    |   __   __   |        |   __   __   |        |   __   __   |        |    _____    |    |" << std::endl;
   std::cout << "|    |  |O|   |O|  |        |  |0|   |0|  |        |  |@|   |@|  |        |   | @@@ |   |    |" << std::endl;
@@ -43,7 +43,7 @@ int main() {
   maze_t M;
   // leemos el mapa data_maze_1.txt
   std::ifstream inf{ "../Archivostxt/mapa.txt" };
-  
+
   // If no pudimos abrir el fichero:
   if (!inf) {   
     // imprime un error y retorna
