@@ -37,12 +37,6 @@ int main() {
 
     //bucle
 
-    //std::cout << "\033[1;31m"; 
-    //std::string p = "Habia una vez una pobre niña que quería tu preciado helado. \nIntentó arrancártelo de la mano, pero rapidamente tu pudiste esquivarla con gran perspicacia.\nFinalmente te caiste por el balanceo que te proporcionó aquella maniobra evasiva\n";
-    //printWithDelay(p);
-    //std::cout << "\033[0m";
-    //p = "Ahora tienes la decisión, que querrá hacer el protagonista?\n(m) mostrar el mapa\n(s) ir al sur\n";
-    //printWithDelay(p);
     char eleccion;
     std::cin >> eleccion;
     if (eleccion == 'm') {
