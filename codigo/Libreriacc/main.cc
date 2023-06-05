@@ -35,7 +35,7 @@ void printoftxt( std::string s, int linea) {
   printWithDelay(s);
 }
 
-// .cc que estan quitados: el constructor de personaje y de mochila una función de salud y consumible entero
+// .cc que estan quitados: y de mochila una función de salud y consumible entero
 
 int main() {
   system("clear");
