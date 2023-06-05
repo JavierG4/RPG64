@@ -17,7 +17,7 @@ COMENTARIOS: Aquí estarán la clase cosumible
 
 class Consumible{
  public:
-  //std::string get_nombre(void) const;
+  //std::string get_nombre_con(void) const;
 
  private:
   std::string nombre_;
