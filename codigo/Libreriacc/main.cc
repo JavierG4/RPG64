@@ -21,17 +21,17 @@ void printWithDelay(const std::string& s, int delay = 50000) {
 }
 
 void printoftxt( std::string s, int linea) {
-  std::string direccion{../Archivostxt/lore/};
+  std::string direccion{"../Archivostxt/lore/"};
   s += direccion;
   std::ifstream inf{ s };
   // If no pudimos abrir el fichero:
   if (!inf) {   
     // imprime un error y retorna
     std::cout << "Uh oh,  no se pudo abrir!\n";
-    return 1;
+    return;
   }
   // lee el mapa del inf
-  s = getline(inf,1);
+  getline(inf,s,1);
   printWithDelay(s);
 }
 
