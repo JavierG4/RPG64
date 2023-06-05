@@ -20,7 +20,7 @@ void printWithDelay(const std::string& s, int delay = 50000) {
   }
 }
 
-void printoftxt( std::string s) {
+void printoftxt( std::string s, int linea) {
   std::string direccion{../Archivostxt/lore/};
   s += direccion;
   std::ifstream inf{ s };
@@ -31,7 +31,7 @@ void printoftxt( std::string s) {
     return 1;
   }
   // lee el mapa del inf
-  s = getline(inf,)
+  s = getline(inf,1);
   printWithDelay(s);
 }
 
@@ -82,6 +82,7 @@ int main() {
   // se hace un clear y se imprime el mapa.
   system("clear"); 
   std::cout << M << endl;
+  std::cin.ignore();
   }
   
 }
