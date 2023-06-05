@@ -12,9 +12,9 @@ COMENTARIOS: Clase principal del personaje
 */
 #include "../Libreriah/libreria.h"
 
-Personaje::Personaje(Atributos atributos, Estadistica estadistica) {
-  atributos_ = atributos;
-  estadisticas_ = estadistica;
+Personaje::Personaje(Atributos atri, Estadistica estad) {
+  atributos_ = atri;
+  estadisticas_ = estad;
   Salud salud(100,100,100,100,100);
   salud_ = salud;
   Mochila Mochila(10);
