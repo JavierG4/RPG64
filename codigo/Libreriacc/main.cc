@@ -20,6 +20,21 @@ void printWithDelay(const std::string& s, int delay = 50000) {
   }
 }
 
+void printoftxt( std::string s) {
+  std::string direccion{../Archivostxt/lore/};
+  s += direccion;
+  std::ifstream inf{ s };
+  // If no pudimos abrir el fichero:
+  if (!inf) {   
+    // imprime un error y retorna
+    std::cout << "Uh oh,  no se pudo abrir!\n";
+    return 1;
+  }
+  // lee el mapa del inf
+  s = getline(inf,)
+  printWithDelay(s);
+}
+
 // .cc que estan quitados: el constructor de personaje y de mochila una función de salud y consumible entero
 
 int main() {
