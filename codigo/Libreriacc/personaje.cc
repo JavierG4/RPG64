@@ -24,7 +24,7 @@ COMENTARIOS: Clase principal del personaje
 #include <string>
 #include "maze_t.hpp"
 
-Personaje<T>::Personaje(Atributos atributos, Estadistica estadistica) {
+template<class T> Personaje<T>::Personaje(Atributos atributos, Estadistica estadistica) {
   atributos_ = atributos;
   estadisticas_ = estadistica;
   Salud salud(100,100,100,100,100,100);
