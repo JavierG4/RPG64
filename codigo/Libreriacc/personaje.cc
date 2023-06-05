@@ -15,7 +15,7 @@ COMENTARIOS: Clase principal del personaje
 Personaje::Personaje(Atributos atributos, Estadistica estadistica) {
   atributos_ = atributos;
   estadisticas_ = estadistica;
-  Salud salud(100,100,100,100,100,100);
+  Salud salud(100,100,100,100,100);
   salud_ = salud;
   Mochila Mochila(10);
   }
