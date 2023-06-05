@@ -15,7 +15,7 @@ COMENTARIOS: Aquí estarán los objetos que obtenga el personaje
 Mochila::Mochila(int capacidad) {
   capacidad_ = capacidad;
   cantidad_ = 0;
-  dll_t_objeto aux;
+  dll_objeto aux;
   objetos_ = aux;
   consumibles_ = aux;
 }
