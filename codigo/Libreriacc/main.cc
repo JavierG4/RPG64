@@ -56,7 +56,7 @@ int main() {
   Personaje<Objeto> personaje111(personaje1,personaje11);
   Personaje<Objeto> personaje222(personaje2,personaje22);
   Personaje<Objeto> personaje333(personaje3,personaje33);
-  Personaje<Objeto> personaje444(personaje44,personaje44);
+  Personaje<Objeto> personaje444(personaje4,personaje44);
 
 
 

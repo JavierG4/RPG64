@@ -13,7 +13,6 @@ COMENTARIOS: Clase principal del personaje
 #ifndef PERSONAJE_H_
 #define PERSONAJE_H_
 #include "libreria.h"
-#include "salud.h"
 template <class T> class Personaje{
  public:
     Personaje(Atributos, Estadistica); // Constructor del personaje
@@ -23,7 +22,7 @@ template <class T> class Personaje{
  private:
    Salud salud_;
    Atributos atributos_; // Atributos fisicos como altura, edad, peso, etc
-   Mochila<T> mochila_;
+   Mochila mochila_;
    Estadistica estadisticas_; // Fuerza, inteligencia...
 
 };
