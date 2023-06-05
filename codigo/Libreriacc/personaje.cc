@@ -17,5 +17,5 @@ template<class T> Personaje<T>::Personaje(Atributos atributos, Estadistica estad
   estadisticas_ = estadistica;
   Salud salud(100,100,100,100,100,100);
   salud_ = salud;
-  Mochila<dll_node_t> Mochila()
+  Mochila<int> Mochila(10);
   }
