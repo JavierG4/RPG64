@@ -23,10 +23,6 @@ COMENTARIOS: Clase principal del personaje
 #include <cassert>
 #include <string>
 #include "maze_t.hpp"
-#include <cstdlib>
-#include <fstream>
-#include <unistd.h>
-
 
 Personaje<T>::Personaje(Atributos atributos, Estadistica estadistica) {
   atributos_ = atributos;

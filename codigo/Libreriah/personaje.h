@@ -20,22 +20,11 @@ template <class T> class Personaje{
     int get_salud(int parte_del_cuerpo = 0) const; 
     void añadir_objeto(Objeto);
     void dañado(int parte_del_cuerpo, int cantidad);
-
-
-
-
-
-
-
-
-
  private:
    Salud salud_;
    Atributos atributos_; // Atributos fisicos como altura, edad, peso, etc
    Mochila<T> mochila_;
    Estadistica estadisticas_; // Fuerza, inteligencia...
-
-
 
 };
 #endif  // PERSONAJE_H_
