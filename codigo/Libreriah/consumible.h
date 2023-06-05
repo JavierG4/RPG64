@@ -17,10 +17,11 @@ COMENTARIOS: Aquí estarán la clase cosumible
 
 class Consumible{
  public:
-  std::string get_nombre_con(void) const;
+  std::string get_nombre_con() const;
 
  private:
   std::string nombre_;
+  std::string descripcion_;
 };
 
 #endif  // CONSUMIBLE_H_
