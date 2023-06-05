@@ -1,0 +1,13 @@
+/*
+AUTORES :Javier González Brito .
+        :Javier ...
+        :Izan ...
+        :Airan...
+        :Jose...
+        :Franco
+        :Alejandro Barreto
+ULT FECHA: 17/04/2023
+Historia del juego
+COMENTARIOS: Aquí por tramos se cuenta el lore
+*/
+#include "../Libreriah/libreria.h"
