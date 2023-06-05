@@ -12,7 +12,7 @@ COMENTARIOS: Clase principal del personaje
 */
 #include "../Libreriah/libreria.h"
 
-template<class T> Personaje<T>::Personaje(Atributos atributos, Estadistica estadistica) {
+Personaje::Personaje(Atributos atributos, Estadistica estadistica) {
   atributos_ = atributos;
   estadisticas_ = estadistica;
   Salud salud(100,100,100,100,100,100);

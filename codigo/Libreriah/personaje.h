@@ -13,7 +13,7 @@ COMENTARIOS: Clase principal del personaje
 #ifndef PERSONAJE_H_
 #define PERSONAJE_H_
 #include "libreria.h"
-template <class T> class Personaje{
+class Personaje{
  public:
     Personaje(Atributos, Estadistica); // Constructor del personaje
     int get_salud(int parte_del_cuerpo = 0) const; 
