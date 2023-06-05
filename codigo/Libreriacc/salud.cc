@@ -58,17 +58,17 @@ void Salud::set_interior(int interior) {
 // void Salud::damage_body(int daño) {}
 
 void Salud::curarse(Consumible x ) { // aquí en vez de tantos if iría un switch
-  if( x.get_nombre_con() == "botiquin") { // botiquín por ejmeplo
-    torso_ = 100;
-    brazos_ = 100;
-    piernas_ = 100;
-    interior_ = 100;
-    cabeza_ = 100;
-  }
-  if(x.get_nombre_con() == "pastillas") {cabeza_ = 100;}
-  if(x.get_nombre_con() == "torniquete") {piernas_ = 100;}
-  if(x.get_nombre_con() == "venda") {brazos_ = 100;}
-  if(x.get_nombre_con() == "kit") {torso_ == 100;}
+  //if( x.get_nombre_con() == "botiquin") { // botiquín por ejmeplo
+  //  torso_ = 100;
+  //  brazos_ = 100;
+  //  piernas_ = 100;
+  //  interior_ = 100;
+  //  cabeza_ = 100;
+  //}
+  //if(x.get_nombre_con() == "pastillas") {cabeza_ = 100;}
+  //if(x.get_nombre_con() == "torniquete") {piernas_ = 100;}
+  //if(x.get_nombre_con() == "venda") {brazos_ = 100;}
+  //if(x.get_nombre_con() == "kit") {torso_ == 100;}
 }
 
 

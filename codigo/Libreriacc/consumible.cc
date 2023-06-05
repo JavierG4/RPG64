@@ -13,6 +13,6 @@ COMENTARIOS: Aquí estarán la clase cosumible
 */
 #include "../Libreriah/libreria.h"
 
-std::string Consumible::get_nombre_con() const{
+std::string Consumible::get_() const{
   return nombre_;
 }
