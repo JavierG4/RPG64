@@ -14,7 +14,7 @@ COMENTARIOS: Aquí estarán los objetos que obtenga el personaje
 #define MOCHILA_H_
 #include "libreria.h"
 
-typedef dll_t<Objeto> dll_t_objeto;
+typedef dll_t<Objeto> dll_objeto;
 
 class Mochila {
  public:
@@ -32,8 +32,8 @@ class Mochila {
  private:
     int capacidad_; // capacidad maxima
     int cantidad_; // cantidad de objetos que lleva
-    dll_t_objeto objetos_;
-    dll_t_objeto consumibles_;
+    dll_objeto objetos_;
+    dll_objeto consumibles_;
 };
 
 
