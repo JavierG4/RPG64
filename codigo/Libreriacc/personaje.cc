@@ -11,7 +11,7 @@ Clase Personaje
 COMENTARIOS: Clase principal del personaje
 */
 #include <iostream>
-#include "consumible.h"
+#include "../Libreriah/consumible.h"
 #include "objetos.h"
 #include "dll_node_t.h"
 #include "dll_t.h"
