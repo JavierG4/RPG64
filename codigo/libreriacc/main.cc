@@ -53,7 +53,7 @@ int main() {
   Estadistica personaje33(10,10,80); // 10 Fuerza, 10, resis, 80 Inteli
   Estadistica personaje44(75,15,10); // 75 Fuerza, 15, resis, 10 Inteli
 
-  Personaje<Objeto> personaje111(personaje1,personaje11);
+  //Personaje<Objeto> personaje111(personaje1,personaje11);
   //Personaje<Objeto> personaje222(personaje2,personaje22);
   //Personaje<Objeto> personaje333(personaje3,personaje33);
   //Personaje<Objeto> personaje444(personaje44,personaje44);
@@ -70,6 +70,8 @@ int main() {
   std::cout << "|    |  ¯¯¯|^|¯¯¯  |        |  ¯¯¯|^|¯¯¯  |        |  ¯¯¯|^|¯¯¯  |        |   ¯¯|^|¯¯   |    |" << std::endl;
   std::cout << "|    |             |        |             |        |             |        |             |    |" << std::endl;
 
+
+
   //bucle
   std::cout << "\033[1;31m"; 
   std::string p = "Habia una vez una pobre niña que quería tu preciado helado. \nIntentó arrancártelo de la mano, pero rapidamente tu pudiste esquivarla con gran perspicacia.\nFinalmente te caiste por el balanceo que te proporcionó aquella maniobra evasiva\n";
@@ -82,7 +84,7 @@ int main() {
   if (eleccion == 'm') {
   maze_t M;
   // leemos el mapa data_maze_1.txt
-  std::ifstream inf{ "../Archivostxt/mapa.txt" };
+  std::ifstream inf{ "../Archivostxt/mapa_ini.txt" };
 
   // If no pudimos abrir el fichero:
   if (!inf) {   
