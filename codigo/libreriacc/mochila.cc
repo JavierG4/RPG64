@@ -10,7 +10,7 @@ ULT FECHA: 17/04/2023
 Clase mochila
 COMENTARIOS: Aquí estarán los objetos que obtenga el personaje
 */
-#include "../Libreriah/libreria.h"
+#include "../libreriah/libreria.h"
 
 template<class T> Mochila<T>::Mochila(int capacidad) {
   capacidad_ = capacidad;

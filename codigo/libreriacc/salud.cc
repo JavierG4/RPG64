@@ -15,7 +15,7 @@ Atributos clase salud:
     Piernas
     Brazos
 */
-#include "../Libreriah/libreria.h"
+#include "../libreriah/libreria.h"
 Salud::Salud(int torso, int cabeza, int interior, int brazos, int piernas){
   torso_ =  torso;
   cabeza_ = cabeza;

@@ -8,7 +8,7 @@
 //              "C++ Programming Style Guidelines"
 //              https://geosoft.no/development/cppstyle.html
 
-#include "../Libreriah/libreria.h"
+#include "../libreriah/libreria.h"
 
 
 // constructor

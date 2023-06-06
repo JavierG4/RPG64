@@ -10,7 +10,7 @@ ULT FECHA: 17/04/2023
 Programa Principal
 COMENTARIOS: 
 */
-#include "../Libreriah/libreria.h"
+#include "../libreriah/libreria.h"
 
 void printWithDelay(const std::string& s, int delay = 50000) {
   for (char c : s) {

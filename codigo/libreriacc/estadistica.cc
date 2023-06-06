@@ -10,7 +10,7 @@ ULT FECHA: 17/04/2023
 Clase atributos
 COMENTARIOS: Aquí estarán los atributos de cada personaje
 */
-#include "../Libreriah/libreria.h"
+#include "../libreriah/libreria.h"
 Estadistica::Estadistica(int fuerza, int resistencia, int inteligencia){
   fuerza_ = fuerza;
   resistencia_ = resistencia;
