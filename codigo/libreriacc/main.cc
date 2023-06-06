@@ -21,7 +21,7 @@ void printWithDelay(const std::string& s, int delay = 50000) {
 }
 
 void printoftxt( std::string s, int linea) {
-  std::string direccion{"../Archivostxt/lore/"};
+  std::string direccion{"../archivostxt/lore/"};
   s += direccion;
   std::ifstream inf( s );
   // If no pudimos abrir el fichero:
@@ -82,8 +82,8 @@ int main() {
   if (eleccion == 'm') {
   maze_t M;
   // leemos el mapa data_maze_1.txt
-  std::ifstream inf{ "../Archivostxt/mapa.txt" };
-
+  std::ifstream inf{ "../archivostxt/mapa.txt" };
+  std::cin.ignore();
   // If no pudimos abrir el fichero:
   if (!inf) {   
     // imprime un error y retorna
@@ -95,7 +95,6 @@ int main() {
   // se hace un clear y se imprime el mapa.
   system("clear"); 
   std::cout << M << endl;
-  std::cin.ignore();
   }
   
 }
