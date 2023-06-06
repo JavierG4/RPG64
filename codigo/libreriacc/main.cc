@@ -83,7 +83,6 @@ int main() {
   maze_t M;
   // leemos el mapa data_maze_1.txt
   std::ifstream inf{ "../archivostxt/mapa.txt" };
-  std::cin.ignore();
   // If no pudimos abrir el fichero:
   if (!inf) {   
     // imprime un error y retorna
@@ -96,5 +95,10 @@ int main() {
   system("clear"); 
   std::cout << M << endl;
   }
+  //para parar el programa hasta que pulse enter
+  std::cout << "Presiona enter para continuar... ";
+  std::cin.ignore();
+  std::cin.ignore();
+  system("clear");
   
 }
