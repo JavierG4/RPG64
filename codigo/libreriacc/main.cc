@@ -104,6 +104,8 @@ int main() {
   system("clear"); 
   std::cout << M << endl;
   }
+  p = "intro.txt";
+  printoftxt(p);
   //para parar el programa hasta que se pulse enter
   stop();
   
