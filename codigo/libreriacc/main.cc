@@ -53,10 +53,10 @@ int main() {
   Estadistica personaje33(10,10,80); // 10 Fuerza, 10, resis, 80 Inteli
   Estadistica personaje44(75,15,10); // 75 Fuerza, 15, resis, 10 Inteli
 
-  Personaje<Objeto> personaje111(personaje1,personaje11);
-  Personaje<Objeto> personaje222(personaje2,personaje22);
-  Personaje<Objeto> personaje333(personaje3,personaje33);
-  Personaje<Objeto> personaje444(personaje44,personaje44);
+   Personaje<Objeto> personaje111(personaje1,personaje11);
+   Personaje<Objeto> personaje222(personaje2,personaje22);
+   Personaje<Objeto> personaje333(personaje3,personaje33);
+   Personaje<Objeto> personaje444(personaje44,personaje44);
 
 
 
