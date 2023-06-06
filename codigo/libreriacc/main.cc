@@ -21,7 +21,7 @@ void printWithDelay(const std::string& s, int delay = 50000) {
 }
 
 void printoftxt( std::string s, int linea) {
-  std::string direccion{"../Archivostxt/lore/"};
+  std::string direccion{"../archivostxt/lore/"};
   s += direccion;
   std::ifstream inf( s );
   // If no pudimos abrir el fichero:
@@ -33,6 +33,13 @@ void printoftxt( std::string s, int linea) {
   // lee el mapa del inf
   std::getline(inf,s);
   printWithDelay(s);
+}
+
+void stop(){
+  std::cout << "Presiona enter para continuar... ";
+  std::cin.ignore();
+  std::cin.ignore();
+  system("clear");
 }
 
 // .cc que estan quitados: y de mochila una función de salud y consumible entero
@@ -53,10 +60,10 @@ int main() {
   Estadistica personaje33(10,10,80); // 10 Fuerza, 10, resis, 80 Inteli
   Estadistica personaje44(75,15,10); // 75 Fuerza, 15, resis, 10 Inteli
 
-   Personaje<Objeto> personaje111(personaje1,personaje11);
-   Personaje<Objeto> personaje222(personaje2,personaje22);
-   Personaje<Objeto> personaje333(personaje3,personaje33);
-   Personaje<Objeto> personaje444(personaje44,personaje44);
+  Personaje<Objeto> personaje111(personaje1,personaje11);
+  //Personaje<Objeto> personaje222(personaje2,personaje22);
+  //Personaje<Objeto> personaje333(personaje3,personaje33);
+  //Personaje<Objeto> personaje444(personaje44,personaje44);
 
 
 
@@ -84,8 +91,7 @@ int main() {
   if (eleccion == 'm') {
   maze_t M;
   // leemos el mapa data_maze_1.txt
-  std::ifstream inf{ "../Archivostxt/mapa.txt" };
-
+  std::ifstream inf{ "../archivostxt/mapa.txt" };
   // If no pudimos abrir el fichero:
   if (!inf) {   
     // imprime un error y retorna
@@ -97,7 +103,8 @@ int main() {
   // se hace un clear y se imprime el mapa.
   system("clear"); 
   std::cout << M << endl;
-  std::cin.ignore();
   }
+  //para parar el programa hasta que se pulse enter
+  stop();
   
 }
