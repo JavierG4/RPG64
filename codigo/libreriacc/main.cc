@@ -35,6 +35,13 @@ void printoftxt( std::string s, int linea) {
   printWithDelay(s);
 }
 
+void stop(){
+  std::cout << "Presiona enter para continuar... ";
+  std::cin.ignore();
+  std::cin.ignore();
+  system("clear");
+}
+
 // .cc que estan quitados: y de mochila una función de salud y consumible entero
 
 int main() {
@@ -96,9 +103,6 @@ int main() {
   std::cout << M << endl;
   }
   //para parar el programa hasta que pulse enter
-  std::cout << "Presiona enter para continuar... ";
-  std::cin.ignore();
-  std::cin.ignore();
-  system("clear");
+  stop();
   
 }
