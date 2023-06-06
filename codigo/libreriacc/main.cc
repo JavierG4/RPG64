@@ -102,7 +102,7 @@ int main() {
   system("clear"); 
   std::cout << M << endl;
   }
-  //para parar el programa hasta que pulse enter
+  //para parar el programa hasta que se pulse enter
   stop();
   
 }
