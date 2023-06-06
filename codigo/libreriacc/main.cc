@@ -19,8 +19,9 @@ void printWithDelay(const std::string& s, int delay = 50000) {
     usleep(delay); // espera el tiempo de retraso especificado
   }
 }
-
-void printoftxt( std::string s) {
+// motodo para poder leer lentamente una linea (hasta el carcter *) de un fichero .txt
+// Los inputs de la función son: una string que tiene que tener el nombre del fichero del que queremos extraer la info y la linea que queremos leer
+void printoftxt( std::string s, int linea) {
   std::string direccion{"../archivostxt/lore/"};
   s = direccion + s;
   std::ifstream inf( s );
@@ -30,8 +31,12 @@ void printoftxt( std::string s) {
     std::cout << "Uh oh, el fichero no se pudo abrir!\n";
     return;
   }
-  // lee el mapa del inf
+  // lee del inf
   char a = '*';
+  int lin_actual {1};
+  while(lin_actual < linea) {
+    std::getline(inf,s,a);
+  }
   std::getline(inf,s,a);
   printWithDelay(s);
   std::cout << "\n";
@@ -51,7 +56,7 @@ void mapa() {
   if (!inf) {   
     // imprime un error y retorna
     std::cout << "Uh oh, mapa.txt no se pudo abrir!\n";
-    return 1;
+    return;
   }
   // lee el mapa del inf
   inf >> M;
@@ -60,11 +65,29 @@ void mapa() {
   std::cout << M << endl;
   stop();
 }
+// hace un cout de las opciones que tiene dicha zona.
+void opZona(int a, int b) {
+  //falta por hacerlo
+  std::cout << "(m) para mirar el mapa\n";
+
+  char eleccion;
+  std::cin >> eleccion;
+
+  if (eleccion == 'm') {
+  //imprime el mapa
+    mapa();
+  }
+}
 
 // .cc que estan quitados: y de mochila una función de salud y consumible entero
 
 int main() {
+  //string que utilizarás para poner el nombre de los ficheros que quieres leer
+  std::string p;
+  char eleccion;
   system("clear");
+  p = "intro.txt";
+  printoftxt(p,1);
 
     //elección de personajes
   std::cout << "------------------------------------ELECCION DE PERSONAJE------------------------------------" << std::endl;
@@ -99,21 +122,11 @@ int main() {
 
 
   //bucle
-  std::cout << "\033[1;31m"; 
-  std::string p = "Habia una vez una pobre niña que quería tu preciado helado. \nIntentó arrancártelo de la mano, pero rapidamente tu pudiste esquivarla con gran perspicacia.\nFinalmente te caiste por el balanceo que te proporcionó aquella maniobra evasiva\n";
-  printWithDelay(p);
-  std::cout << "\033[0m";
-  p = "Ahora tienes la decisión, que querrá hacer el protagonista?\n(m) mostrar el mapa\n(s) ir al sur\n";
-  printWithDelay(p);
-  char eleccion;
+  std::cout << "(m) para mirar el mapa\n";
   std::cin >> eleccion;
   if (eleccion == 'm') {
   //imprime el mapa
     mapa();
   }
-  p = "intro.txt";
-  printoftxt(p,1);
-  //para parar el programa hasta que se pulse enter
-  stop();
-  
+  opZona(0,0);// hay que poner en el personaje la posición y hacer que el mapa se corresponda con ello.
 }
