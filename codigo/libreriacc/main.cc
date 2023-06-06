@@ -20,9 +20,9 @@ void printWithDelay(const std::string& s, int delay = 50000) {
   }
 }
 
-void printoftxt( std::string s, int linea) {
+void printoftxt( std::string s) {
   std::string direccion{"../archivostxt/lore/"};
-  s += direccion;
+  s = direccion + s;
   std::ifstream inf( s );
   // If no pudimos abrir el fichero:
   if (!inf) {   
@@ -31,15 +31,34 @@ void printoftxt( std::string s, int linea) {
     return;
   }
   // lee el mapa del inf
-  std::getline(inf,s);
+  char a = '*';
+  std::getline(inf,s,a);
   printWithDelay(s);
+  std::cout << "\n";
+}
+// para la ejecución del programa hasta que pulsas enter (algunas veces le tienes que dar dos veces en vez de una)
+void stop() {
+  std::cout << "\nPresiona enter para continuar... ";
+  std::cin.ignore();
+  std::cin.ignore();
 }
 
-void stop(){
-  std::cout << "Presiona enter para continuar... ";
-  std::cin.ignore();
-  std::cin.ignore();
-  system("clear");
+void mapa() {
+  maze_t M;
+  // leemos el mapa data_maze_1.txt
+  std::ifstream inf{ "../archivostxt/mapa_ini.txt" };
+  // If no pudimos abrir el fichero:
+  if (!inf) {   
+    // imprime un error y retorna
+    std::cout << "Uh oh, mapa.txt no se pudo abrir!\n";
+    return 1;
+  }
+  // lee el mapa del inf
+  inf >> M;
+  // se hace un clear y se imprime el mapa.
+  system("clear"); 
+  std::cout << M << endl;
+  stop();
 }
 
 // .cc que estan quitados: y de mochila una función de salud y consumible entero
@@ -89,23 +108,11 @@ int main() {
   char eleccion;
   std::cin >> eleccion;
   if (eleccion == 'm') {
-  maze_t M;
-  // leemos el mapa data_maze_1.txt
-  std::ifstream inf{ "../archivostxt/mapa_ini.txt" };
-  // If no pudimos abrir el fichero:
-  if (!inf) {   
-    // imprime un error y retorna
-    std::cout << "Uh oh, mapa.txt no se pudo abrir!\n";
-    return 1;
-  }
-  // lee el mapa del inf
-  inf >> M;
-  // se hace un clear y se imprime el mapa.
-  system("clear"); 
-  std::cout << M << endl;
+  //imprime el mapa
+    mapa();
   }
   p = "intro.txt";
-  printoftxt(p);
+  printoftxt(p,1);
   //para parar el programa hasta que se pulse enter
   stop();
   
