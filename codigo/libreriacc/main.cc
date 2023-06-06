@@ -91,7 +91,7 @@ int main() {
   if (eleccion == 'm') {
   maze_t M;
   // leemos el mapa data_maze_1.txt
-  std::ifstream inf{ "../archivostxt/mapa.txt" };
+  std::ifstream inf{ "../archivostxt/mapa_ini.txt" };
   // If no pudimos abrir el fichero:
   if (!inf) {   
     // imprime un error y retorna
