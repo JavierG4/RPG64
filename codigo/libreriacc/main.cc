@@ -89,7 +89,8 @@ int main() {
   std::cout << "\033[1;31m";
   p = "intro.txt";
   printoftxt(p,1);
-std::cout << "\033[0";
+  std::cout << "\033[0m";
+  //printoftxt(p,2);
     //elección de personajes
   std::cout << "------------------------------------ELECCION DE PERSONAJE------------------------------------" << std::endl;
   std::cout << "\n";
