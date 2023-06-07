@@ -124,11 +124,5 @@ int main() {
 
 
   //bucle
-  std::cout << "(m) para mirar el mapa\n";
-  std::cin >> eleccion;
-  if (eleccion == 'm') {
-  //imprime el mapa
-    mapa();
-  }
   opZona(0,0);// hay que poner en el personaje la posición y hacer que el mapa se corresponda con ello.
 }
