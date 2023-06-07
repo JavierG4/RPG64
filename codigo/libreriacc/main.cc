@@ -86,6 +86,7 @@ int main() {
   std::string p;
   char eleccion;
   system("clear");
+  std::cout << "\033[1;31m";
   p = "intro.txt";
   printoftxt(p,1);
 
