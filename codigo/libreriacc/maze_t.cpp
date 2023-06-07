@@ -105,16 +105,16 @@ maze_t::write(ostream& os) const
 
 // FASE I
 // comprueba que la fila i y columna j son válidas antes de pasar a ellas
-//bool
-//maze_t::is_ok_(const int i, const int j) const
-//{ 
-//  // retornar true si se cumplen TODAS estas condiciones:
-//  if ( matrix_.get_m() >= i && i > 0 && matrix_.get_n() >= j && j > 0 && matrix_.at(i,j) != WALL_ID && visited_.at(i,j) != true) { return true; }
-//  // - fila i y la columna j están dentro de los límites del laberinto,
-//  // - la celda en (i, j) no puede ser un muro,
-//  // - la celda (i, j) no puede haber sido visitada antes.
-//  return false;
-//}
+bool
+maze_t::is_ok_(const int i, const int j) const
+{ 
+  // retornar true si se cumplen TODAS estas condiciones:
+  if ( matrix_.get_m() >= i && i > 0 && matrix_.get_n() >= j && j > 0 && matrix_.at(i,j) != WALL_ID && visited_.at(i,j) != true) { return true; }
+  // - fila i y la columna j están dentro de los límites del laberinto,
+  // - la celda en (i, j) no puede ser un muro,
+  // - la celda (i, j) no puede haber sido visitada antes.
+  return false;
+}
 
 
 
