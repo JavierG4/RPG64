@@ -12,6 +12,7 @@ COMENTARIOS:
 */
 #include "../libreriah/libreria.h"
 
+// imprime con delay un string pasado por parámetro
 void printWithDelay(const std::string& s, int delay = 50000) {
   for (char c : s) {
     std::cout << c;
@@ -47,7 +48,7 @@ void stop() {
   std::cin.ignore();
   std::cin.ignore();
 }
-
+// imprime el mapa en la pantalla.
 void mapa() {
   maze_t M;
   // leemos el mapa data_maze_1.txt
@@ -65,6 +66,7 @@ void mapa() {
   std::cout << M << endl;
   stop();
 }
+
 // hace un cout de las opciones que tiene dicha zona.
 void opZona(int a, int b) {
   //falta por hacerlo
