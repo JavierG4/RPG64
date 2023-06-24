@@ -20,6 +20,7 @@ void printWithDelay(const std::string& s, int delay = 50000) {
     usleep(delay); // espera el tiempo de retraso especificado
   }
 }
+
 // motodo para poder leer lentamente una linea (hasta el carcter *) de un fichero .txt
 // Los inputs de la función son: una string que tiene que tener el nombre del fichero del que queremos extraer la info y la linea que queremos leer
 void printoftxt( std::string s, int linea) {
@@ -42,12 +43,14 @@ void printoftxt( std::string s, int linea) {
   printWithDelay(s);
   std::cout << "\n";
 }
+
 // para la ejecución del programa hasta que pulsas enter (algunas veces le tienes que dar dos veces en vez de una)
 void stop() {
   std::cout << "\nPresiona enter para continuar... ";
   std::cin.ignore();
   std::cin.ignore();
 }
+
 // imprime el mapa en la pantalla.
 void mapa() {
   maze_t M;
@@ -81,7 +84,7 @@ void opZona(int a, int b) {
   }
 }
 
-// .cc que estan quitados: y de mochila una función de salud y consumible entero
+// .cc que estan quitados: de mochila una función de salud y consumible entero
 
 int main() {
   //string que utilizarás para poner el nombre de los ficheros que quieres leer
